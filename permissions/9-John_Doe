@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -f log
+chmod 753 hello
