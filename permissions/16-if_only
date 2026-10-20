@@ -1,2 +1,2 @@
 #!/bin/bash
-test "$(stat -c '%U' hello)" = "guillaume" -a -n "$(chown vincent hello 2>/dev/null)"
+chown vincent --from=guillaume hello
